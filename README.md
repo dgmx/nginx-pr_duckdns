@@ -57,5 +57,6 @@ Esta es la configuración básica minima, con una base de datos sqlite, no hace 
 sería una configuración mas avanzada.
 
 Para mas información sobre instrucciones de configuración podeis revisar la documentación oficial:
+
 [Full Setup Instructions](https://nginxproxymanager.com/setup/)
 
