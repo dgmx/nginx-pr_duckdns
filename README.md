@@ -124,7 +124,7 @@ Lanzamos el contenedor y volvemos a Nginx Proxy Manager.
 
 Vamos a crear nuevo host, podemos acceder desde el dashboard o desde el menu superior, desde Hosts hacemos click en Add Proxy Host
 
-![NPM](img/npm-h1.png =250x)
+![NPM](img/npm-h1.png)
 
 En Domain names introducimos nuestro subdominio registrado en duckdns, como por ejemplo subdominio1.duckdns.org, en Fordward Hostname / IP introducimos la dirección IP del servidor de Docker y en Forward Port el puerto del servicio a exponer.
 
