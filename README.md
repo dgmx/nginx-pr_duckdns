@@ -56,7 +56,33 @@ services:
 Esta es la configuración básica minima, con una base de datos sqlite, no hace uso de una base de datos MariaDB que 
 sería una configuración mas avanzada.
 
+Para que funcione correctamente debemos abrir los puertos 80 y 443 en nuestro router apuntando a la maquina docker.
+En los comentarios del mismo archivo docker-compose.yml se explica basicamente el funcionamiento del mismo.
+
 Para mas información sobre instrucciones de configuración podeis revisar la documentación oficial:
 
 [Full Setup Instructions](https://nginxproxymanager.com/setup/)
+
+Para crear el contenedor ejecutamos:
+
+```console
+$ docker compose up -d
+
+```
+Podemos acceder a NPM a través del puerto 81 (http://IP:81) y comenzar la configuración.
+
+El usuario inicial es `admin@example.com` y su contraseña es `changeme`.
+
+Una vez iniciada la sesión, se editan los datos del usuario:
+
+Full Name: Administrator
+Nickname: Admin
+Email: tuemail@dominio.com
+
+Y, a continuación, se cambia la contraseña por otra más segura:
+
+Current Password: changeme
+New Password: *********
+Confirm Password: *********
+
 
