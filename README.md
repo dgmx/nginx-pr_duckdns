@@ -134,7 +134,8 @@ Ahora accedemos a SSL
 
 El SSL Certificate dejamos la opcion Request a new SSL Certificate (Let`s Encrypt) y activamos las 4 casillas tal y como se muestra en la imagen. Completamos con nuestro email y aceptamos las condiciones del servicio. Guardamos
 
-Si el proceso termina correctamente veremos los hosts creados en nuesto NPM
+Si el proceso termina correctamente veremos los hosts creados en nuesto NPM (en la imagen los nombres de los hosts han sido borrados)
+
 ![NPM](img/npm.png)
 
 
