@@ -75,14 +75,14 @@ El usuario inicial es `admin@example.com` y su contraseña es `changeme`.
 
 Una vez iniciada la sesión, se editan los datos del usuario:
 
-Full Name: Administrator
-Nickname: Admin
-Email: tuemail@dominio.com
+* Full Name: Administrator
+* Nickname: Admin
+* Email: tuemail@dominio.com
 
 Y, a continuación, se cambia la contraseña por otra más segura:
 
-Current Password: changeme
-New Password: *********
-Confirm Password: *********
+* Current Password: changeme
+* New Password: *********
+* Confirm Password: *********
 
 
