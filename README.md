@@ -119,7 +119,7 @@ services:
 
 ```
 Lanzamos el contenedor y volvemos a Nginx Proxy Manager.
-
+![NPM](img/npm.png)
 
 
 
