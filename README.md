@@ -126,8 +126,17 @@ Vamos a crear nuevo host, podemos acceder desde el dashboard o desde el menu sup
 
 ![NPM](img/npm.png)
 
-Hacemos click en New Host
+Hacemos click en Add Proxy Host
 
+![NPM](img/npm-h1.png)
+
+En Domain names introducimos nuestro subdominio registrado en duckdns, como por ejemplo subdominio1.duckdns.org, en Fordward Hostname / IP introducimos la dirección IP del servidor de Docker y en Forward Port el puerto del servicio a exponer.
+
+Ahora accedemos a SSL
+
+![NPM](img/npm-ssl.png)
+
+El SSL Certificate dejamos la opcion Request a new SSL Certificate (Let`s Encrypt) y activamos las 4 casillas tal y como se muestra en la imagen. Completamos con nuestro email y aceptamos las condiciones del servicio. Guardamos
 
 
 
