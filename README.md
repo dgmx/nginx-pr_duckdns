@@ -79,7 +79,7 @@ Una vez iniciada la sesión, se editan los datos del usuario y se cambia la cont
 
 Antes de crear un host con certificado apuntando a alguno de nuestros servicios vamos a configurar DuckDNS
 
-## DUCKDNS
+## DUCK DNS
 
 ### Alta en DuckDNS
 
@@ -88,6 +88,38 @@ Accedemos a la web [Duck DNS](https://www.duckdns.org) y nos registramos, con al
 Reservamos nuestros nombres de subdominios, hasta 5 en total y anotamos nuestro token para emplearlo despues.
 
 ![DuckDNS](img/duckdns.png)
+
+Creamos carpeta para almacenar el archivo docker-compose.yml
+
+```console
+$ mkdir duckdns
+$ cd duckdns
+
+```
+El archivo de creación del contenedor de duckdns es el siguiente:
+
+```docker
+version: "3"
+
+services:
+  duckdns:
+    image: lscr.io/linuxserver/duckdns:latest
+    container_name: duckdns
+    network_mode: host #optional
+    environment:
+      - PUID=1000 #optional
+      - PGID=1000 #optional
+      - TZ=Europe/Madrid #optional
+      - SUBDOMAINS=subdominio1, subdominio2, ... , subdominio5
+      - TOKEN=token-copiado-de-la-web-duckdns
+      - LOG_FILE=false #optional
+    volumes:
+      - /path/to/duckdns/config:/config #optional
+    restart: unless-stopped
+
+```
+Lanzamos el contenedor y volvemos a Nginx Proxy Manager.
+
 
 
 
