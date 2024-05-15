@@ -122,11 +122,7 @@ Lanzamos el contenedor y volvemos a Nginx Proxy Manager.
 
 ![NPM](img/npm-01.png)
 
-Vamos a crear nuevo host, podemos acceder desde el dashboard o desde el menu superior:
-
-![NPM](img/npm.png)
-
-Hacemos click en Add Proxy Host
+Vamos a crear nuevo host, podemos acceder desde el dashboard o desde el menu superior, desde Hosts hacemos click en Add Proxy Host
 
 ![NPM](img/npm-h1.png)
 
@@ -137,6 +133,9 @@ Ahora accedemos a SSL
 ![NPM](img/npm-ssl.png)
 
 El SSL Certificate dejamos la opcion Request a new SSL Certificate (Let`s Encrypt) y activamos las 4 casillas tal y como se muestra en la imagen. Completamos con nuestro email y aceptamos las condiciones del servicio. Guardamos
+
+Si el proceso termina correctamente veremos los hosts creados en nuesto NPM
+![NPM](img/npm.png)
 
 
 
