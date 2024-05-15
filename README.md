@@ -73,16 +73,15 @@ Podemos acceder a NPM a través del puerto 81 (http://IP:81) y comenzar la confi
 
 El usuario inicial es `admin@example.com` y su contraseña es `changeme`.
 
-Una vez iniciada la sesión, se editan los datos del usuario:
+Una vez iniciada la sesión, se editan los datos del usuario y se cambia la contraseña por defecto.
 
-* Full Name: Administrator
-* Nickname: Admin
-* Email: tuemail@dominio.com
+Antes de crear un host con certificado apuntando a alguno de nuestros servicios vamos a configurar DuckDNS
 
-Y, a continuación, se cambia la contraseña por otra más segura:
+## DUCKDNS
 
-* Current Password: changeme
-* New Password: *********
-* Confirm Password: *********
+### Alta en DuckDNS
 
+Accedemos a la web [Duck DNS] (https://www.duckdns.org) y nos registramos, con alguna de las cuentas permitidas (google, twitter, github...)
+
+Reservamos nuestros nombres de subdominios 
 
