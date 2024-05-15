@@ -119,7 +119,16 @@ services:
 
 ```
 Lanzamos el contenedor y volvemos a Nginx Proxy Manager.
+
+![NPM](img/npm-01.png)
+
+Vamos a crear nuevo host, podemos acceder desde el dashboard o desde el menu superior:
+
 ![NPM](img/npm.png)
+
+Hacemos click en New Host
+
+
 
 
 
