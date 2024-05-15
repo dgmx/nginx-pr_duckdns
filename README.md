@@ -5,6 +5,8 @@ crear y administrar servicios o hosts detras del proxy con cobertura HTTPS, es d
 certificados TLS en el proxy para no tener que hacer dicha configuración en cada uno de los servicios externos
 que queremos exponer
 
+ ![Nginx Inverse Proxy](img/reverseproxy.png)
+
 NPM (Nginx Proxy Manager) usa internamente `Let's Encrypt` para gestionar y solicitar los certificados TLS que se 
 aplicarán en cada servicio.
 
