@@ -124,13 +124,13 @@ Lanzamos el contenedor y volvemos a Nginx Proxy Manager.
 
 Vamos a crear nuevo host, podemos acceder desde el dashboard o desde el menu superior, desde Hosts hacemos click en Add Proxy Host
 
-![NPM](img/npm-h1.png)
+![NPM](img/npm-h1.png =250x)
 
 En Domain names introducimos nuestro subdominio registrado en duckdns, como por ejemplo subdominio1.duckdns.org, en Fordward Hostname / IP introducimos la dirección IP del servidor de Docker y en Forward Port el puerto del servicio a exponer.
 
 Ahora accedemos a SSL
 
-![NPM](img/npm-ssl.png)
+![NPM](img/npm-ssl.png =250x)
 
 El SSL Certificate dejamos la opcion Request a new SSL Certificate (Let`s Encrypt) y activamos las 4 casillas tal y como se muestra en la imagen. Completamos con nuestro email y aceptamos las condiciones del servicio. Guardamos
 
