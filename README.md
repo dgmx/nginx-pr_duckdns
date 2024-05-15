@@ -85,5 +85,9 @@ Antes de crear un host con certificado apuntando a alguno de nuestros servicios 
 
 Accedemos a la web [Duck DNS] (https://www.duckdns.org) y nos registramos, con alguna de las cuentas permitidas (google, twitter, github...)
 
-Reservamos nuestros nombres de subdominios 
+Reservamos nuestros nombres de subdominios, hasta 5 en total y anotamos nuestro token para emplearlo despues.
+
+![DuckDNS](img/duckdns.png)
+
+
 
