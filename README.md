@@ -130,7 +130,7 @@ En Domain names introducimos nuestro subdominio registrado en duckdns, como por 
 
 Ahora accedemos a SSL
 
-![NPM](img/npm-ssl.png =250x)
+![NPM](img/npm-ssl.png)
 
 El SSL Certificate dejamos la opcion Request a new SSL Certificate (Let`s Encrypt) y activamos las 4 casillas tal y como se muestra en la imagen. Completamos con nuestro email y aceptamos las condiciones del servicio. Guardamos
 
